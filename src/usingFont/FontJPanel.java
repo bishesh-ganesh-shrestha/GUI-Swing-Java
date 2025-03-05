@@ -16,7 +16,7 @@ public class FontJPanel extends JPanel{
         g.setFont(new Font("SansSerif", Font.PLAIN, 14));
         g.drawString("SansSerif 14 point plain", 20, 70);
         g.setColor(Color.RED);
-//        g.setFont(new Font("", Font.ITALIC, Font.B 14));
+        g.setFont(new Font("", Font.BOLD | Font.ITALIC, 14));
         g.drawString("point bold italic", 20, 90);
     }
 }
